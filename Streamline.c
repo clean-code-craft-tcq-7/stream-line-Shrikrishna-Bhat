@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#inlude "Streamline.h"
+#include "Streamline.h"
 
 void main()
 {
