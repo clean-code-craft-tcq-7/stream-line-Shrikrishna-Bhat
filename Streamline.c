@@ -8,7 +8,7 @@ int main()
 {
   int randomNumber, randomNumberArray[15];
     
-  for (int i=0; i<15; i++)
+  for (int i=0; i<50; i++)
   {
       randomNumberArray[i] = (rand() % 100) + 1;
   }
