@@ -4,10 +4,19 @@
 
 #include "Streamline.h"
 
+int randomNumberArray[50], temparetureSensor[50], socSensor[50];
+
 int main()
 {
-  int randomNumber, randomNumberArray[50];
-    
+  int randomNumber;
+  
+  for (int i=0; i<50; i++)
+  {
+    randomNumberArray[i] = 0;
+    temparetureSensor[i] = 0;
+    socSensor[i]         = 0;
+  }
+  
   for (int i=0; i<50; i++)
   {
       randomNumberArray[i] = (rand() % 100) + 1;
