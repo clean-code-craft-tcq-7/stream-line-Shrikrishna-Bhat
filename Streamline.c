@@ -33,7 +33,7 @@ int getTemparetureSensorData(int receivedTemp[])
 {
   for (int i=0; i<50; i++)
   {
-    temparetureSensor[i] = receivedTemp;
+    temparetureSensor[i] = receivedTemp[i];
   }
   return 0;
 }
