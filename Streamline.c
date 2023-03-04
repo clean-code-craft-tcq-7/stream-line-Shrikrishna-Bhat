@@ -37,3 +37,12 @@ int getTemparetureSensorData(int receivedTemp[])
   }
   return 0;
 }
+
+int getSocSensorData(int receivedSoc[])
+{
+  for (int i=0; i<50; i++)
+  {
+    socSensor[i] = receivedSoc[i];
+  }
+  return 0;
+}
