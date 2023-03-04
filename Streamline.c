@@ -29,7 +29,11 @@ int main()
   return 0;
 }
 
-int getTemparetureSensorData()
+int getTemparetureSensorData(int receivedTemp[])
 {
+  for (int i=0; i<50; i++)
+  {
+    temparetureSensor[i] = receivedTemp;
+  }
   return 0;
 }
